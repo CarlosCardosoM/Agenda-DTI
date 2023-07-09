@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agenda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Novo Lembrete</h1>
+        <div class="form">
+            <form action="">
+              <input type="text" class="nome" name="nome_do_lembrete" placeholder="Nome do lembrete">
+              <input type="date" class="data" name="data">
+              <button type="submit">Criar</button>
+            </form>
+        </div>
+        <div class="reminders">
+            <h2>Lista de Lembretes</h2>
+            <ul id="reminderList"></ul>
+        </div>
+        <div id="lembretesContainer"></div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
